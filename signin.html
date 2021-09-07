@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Foodeiblog Template">
+    <meta name="keywords" content="Foodeiblog, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EZ.Games</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Unna:400,700&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body class="fixed-position">
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Sign In Section Begin -->
+    <div class="signin">
+        <div class="signin__warp">
+            <div class="signin__content">
+                <div class="signin__form">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab" aria-selected="false">
+                                Регестрация
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab" aria-selected="false">
+                                Вход
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                            <div class="signin__form__text">
+                                <p>войти через:</p>
+                                <div class="signin__form__signup__social">
+                                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" class="google"><i class="fa fa-google"></i></a>
+                                </div>
+                                <div class="divide">или</div>
+                                <form action="#">
+                                    <input type="text" placeholder="Никнейм">
+                                    <input type="text" placeholder="Пароль">
+                                    <input type="text" placeholder="Повтори пароль">
+                                    <input type="text" placeholder="Email">
+                                    <input type="text" placeholder="Имя">
+                                    <label for="sign-agree-check">
+                                        Я согласен со всеми условиями.
+                                        <input type="checkbox" id="sign-agree-check">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <button type="submit" class="site-btn">зарегистрироваться</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tabs-2" role="tabpanel">
+                            <div class="signin__form__text">
+                                <p>войти через:</p>
+                                <div class="signin__form__signup__social">
+                                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" class="google"><i class="fa fa-google"></i></a>
+                                </div>
+                                <div class="divide">или</div>
+                                <form action="#">
+                                    <input type="text" placeholder="Никнейм">
+                                    <input type="text" placeholder="Пароль">
+                                    <button type="submit" class="site-btn">Вход</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sign In Section End -->
+
+   <!-- Humberger Begin -->
+   <div class="humberger__menu__overlay"></div>
+   <div class="humberger__menu__wrapper">
+       <div class="humberger__menu__logo">
+           <a href="./index.html"><img src="img/humberger/humberger-logo.png" alt=""></a>
+       </div>
+       <nav class="humberger__menu__nav mobile-menu">
+           <ul>
+               <li><a href="./index.html">Главная</a></li>
+               <li><a href="#">Лучшие</a></li>                
+               <li class="dropdown"><a href="./signin.html">Вход</a></li>                               
+           </ul>
+       </nav>
+       <div id="mobile-menu-wrap"></div>
+       <div class="humberger__menu__about">
+           <div class="humberger__menu__title sidebar__item__title">
+               <h6>О нас</h6>
+           </div>                     
+           <p>Привет всем!!! Мы постим новости и продаем игры, наша команда решила упростить вам жизнь. Прочитай новость и купи игру, если она тебя понравилась, всё в одном сайте!!!</p>
+           <div class="humberger__menu__about__social sidebar__item__follow__links">
+               <a href="#"><i class="fa fa-facebook"></i></a>
+               <a href="#"><i class="fa fa-twitter"></i></a>
+               <a href="#"><i class="fa fa-youtube-play"></i></a>
+               <a href="#"><i class="fa fa-instagram"></i></a>
+               <a href="#"><i class="fa fa-envelope-o"></i></a>
+           </div>
+       </div>
+       <div class="humberger__menu__subscribe">
+           <div class="humberger__menu__title sidebar__item__title">
+               <h6>Подписка</h6>
+           </div>
+           <p>Подпишись и узновай о поступлениях первым!!!</p>
+           <form action="#">
+               <input type="text" class="email-input" placeholder="Введите email">
+               <label for="agree-check">
+                   Я согласен с условиями
+                   <input type="checkbox" id="agree-check">
+                   <span class="checkmark"></span>
+               </label>
+               <button type="submit" class="site-btn">Подпишись</button>
+           </form>
+       </div>
+   </div>
+   <!-- Humberger End -->
+
+   <!-- Header Section Begin -->
+   <header class="header">
+       <div class="header__top">
+           <div class="container">
+               <div class="row">
+                   <div class="col-lg-2 col-md-1 col-6 order-md-1 order-1">
+                       <div class="header__humberger">
+                           <i class="fa fa-bars humberger__open"></i>
+                       </div>
+                   </div>
+                   <div class="col-lg-8 col-md-10 order-md-2 order-3">
+                       <nav class="header__menu">
+                           <ul>
+                               <li class="active"><a href="./index.html">Главная</a></li>
+                               <li><a href="#">Лучшие</a>
+                                   <div class="header__megamenu__wrapper">
+                                       <div class="header__megamenu">
+                                           <div class="header__megamenu__item">
+                                               <div class="header__megamenu__item--pic set-bg"
+                                                   data-setbg="img/megamenu/p-1.jpg">
+                                                   <div class="label">GTA5</div>
+                                               </div>
+                                               <div class="header__megamenu__item--text">
+                                                   <h5><a href="#">39 USD</a>
+                                                   </h5>
+                                               </div>
+                                           </div>
+                                           <div class="header__megamenu__item">
+                                               <div class="header__megamenu__item--pic set-bg"
+                                                   data-setbg="img/megamenu/p-2.jpg">
+                                                   <div class="label">RDR2</div>
+                                               </div>
+                                               <div class="header__megamenu__item--text">
+                                                   <h5><a href="#">49 USD</a>
+                                                   </h5>
+                                               </div>
+                                           </div>
+                                           <div class="header__megamenu__item">
+                                               <div class="header__megamenu__item--pic set-bg"
+                                                   data-setbg="img/megamenu/p-3.jpg">
+                                                   <div class="label">WITCHER3</div>
+                                               </div>
+                                               <div class="header__megamenu__item--text">
+                                                   <h5><a href="#">29 USD</a>
+                                                   </h5>
+                                               </div>
+                                           </div>
+                                           <div class="header__megamenu__item">
+                                               <div class="header__megamenu__item--pic set-bg"
+                                                   data-setbg="img/megamenu/p-4.jpg">
+                                                   <div class="label">DOOM</div>
+                                               </div>
+                                               <div class="header__megamenu__item--text">
+                                                   <h5><a href="#">29 USD</a>
+                                                   </h5>
+                                               </div>
+                                           </div>
+                                           <div class="header__megamenu__item">
+                                               <div class="header__megamenu__item--pic set-bg"
+                                                   data-setbg="img/megamenu/p-5.jpg">
+                                                   <div class="label">DARK SOULS</div>
+                                               </div>
+                                               <div class="header__megamenu__item--text">
+                                                   <h5><a href="#">39 USD</a>
+                                                   </h5>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </li>
+                               <li class="dropdown"><a href="./signin.html">Вход</a></li>                                                               
+                           </ul>
+                       </nav>
+                   </div>
+                   <div class="col-lg-2 col-md-1 col-6 order-md-3 order-2">
+                       <div class="header__search">
+                           <i class="fa fa-search search-switch"></i>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-3 col-md-3">
+                   <div class="header__btn">
+                       <a href="./signin.html" class="primary-btn">Подпишись</a>
+                   </div>
+               </div>
+               <div class="col-lg-6 col-md-6">
+                   <div class="header__logo">
+                       <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                   </div>
+               </div>
+               <div class="col-lg-3 col-md-3">
+                   <div class="header__social">
+                       <a href="#"><i class="fa fa-facebook"></i></a>
+                       <a href="#"><i class="fa fa-twitter"></i></a>
+                       <a href="#"><i class="fa fa-youtube-play"></i></a>
+                       <a href="#"><i class="fa fa-instagram"></i></a>
+                       <a href="#"><i class="fa fa-envelope-o"></i></a>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </header>
+   <!-- Header Section End -->
+
+   <!-- Hero Section Begin -->
+   <section class="hero">
+       <div class="hero__slider owl-carousel">
+           <div class="hero__item">
+               <div class="container-fluid">
+                   <div class="row">
+                       <div class="col-lg-6 p-0">
+                           <div class="hero__inside__item hero__inside__item--wide set-bg"
+                               data-setbg="img/hero/hero-1.jpg">
+                               <div class="hero__inside__item__text">
+                                   <div class="hero__inside__item--meta">
+                                       <span>20</span>
+                                       <p>USD</p>
+                                   </div>
+                                   <div class="hero__inside__item--text">                                        
+                                       <h1>PUBG</h1>                                       
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-lg-3 col-md-6  p-0">
+                           <div class="hero__inside__item hero__inside__item--small set-bg"
+                               data-setbg="img/hero/hero-2.jpg">
+                               <div class="hero__inside__item__text">
+                                   <div class="hero__inside__item--meta">
+                                       <span>39</span>
+                                       <p>USD</p>
+                                   </div>
+                                   <div class="hero__inside__item--text">                                        
+                                       <h5>Battlefield 2042</h5>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="hero__inside__item hero__inside__item--small set-bg"
+                               data-setbg="img/hero/hero-3.jpg">
+                               <div class="hero__inside__item__text">
+                                   <div class="hero__inside__item--meta">
+                                       <span>19</span>
+                                       <p>USD</p>
+                                   </div>
+                                   <div class="hero__inside__item--text">                                        
+                                       <h5>Mass Effect</h5>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-lg-3 col-md-6  p-0">
+                           <div class="hero__inside__item set-bg" data-setbg="img/hero/hero-4.jpg">
+                               <div class="hero__inside__item__text">
+                                   <div class="hero__inside__item--meta">
+                                       <span>24</span>
+                                       <p>USD</p>
+                                   </div>
+                                   <div class="hero__inside__item--text">                                       
+                                       <h5>GTA 5</h5>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="hero__item">
+               <div class="container-fluid">
+                   <div class="row">
+                       <div class="col-lg-6 p-0">
+                           <div class="hero__inside__item hero__inside__item--wide set-bg"
+                               data-setbg="img/hero/hero-5.jpg">
+                               <div class="hero__inside__item__text">
+                                   <div class="hero__inside__item--meta">
+                                       <span>19</span>
+                                       <p>USD</p>
+                                   </div>
+                                   <div class="hero__inside__item--text">                                       
+                                       <h1>Mafia</h1>                                        
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-lg-3 col-md-6 p-0">
+                           <div class="hero__inside__item hero__inside__item--small set-bg"
+                               data-setbg="img/hero/hero-6.jpg">
+                               <div class="hero__inside__item__text">
+                                   <div class="hero__inside__item--meta">
+                                       <span>29</span>
+                                       <p>USD</p>
+                                   </div>
+                                   <div class="hero__inside__item--text">                                        
+                                       <h5>Witcher 3</h5>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="hero__inside__item hero__inside__item--small set-bg"
+                               data-setbg="img/hero/hero-7.jpg">
+                               <div class="hero__inside__item__text">
+                                   <div class="hero__inside__item--meta">
+                                       <span>39</span>
+                                       <p>USD</p>
+                                   </div>
+                                   <div class="hero__inside__item--text">                                       
+                                       <h5>Dark Souls 3</h5>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-lg-3 col-md-6 p-0">
+                           <div class="hero__inside__item set-bg" data-setbg="img/hero/hero-8.jpg">
+                               <div class="hero__inside__item__text">
+                                   <div class="hero__inside__item--meta">
+                                       <span>29</span>
+                                       <p>USD</p>
+                                   </div>
+                                   <div class="hero__inside__item--text">                                        
+                                       <h5>DOOM</h5>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   <!-- Hero Section End -->
+
+   <!-- Categories Section Begin -->
+   <section class="categories spad">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-3 col-md-6 col-sm-6">
+                   <div class="categories__item set-bg" data-setbg="img/categories/cat-1.jpg">
+                       <div class="categories__hover__text">
+                           <h5>Лучшие</h5>                            
+                       </div>
+                   </div>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-6">
+                   <div class="categories__item set-bg" data-setbg="img/categories/cat-2.jpg">
+                       <div class="categories__hover__text">
+                           <h5>игры</h5>                            
+                       </div>
+                   </div>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-6">
+                   <div class="categories__item set-bg" data-setbg="img/categories/cat-3.jpg">
+                       <div class="categories__hover__text">
+                           <h5>Только</h5>                            
+                       </div>
+                   </div>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-6">
+                   <div class="categories__item set-bg" data-setbg="img/categories/cat-4.jpg">
+                       <div class="categories__hover__text">
+                           <h5>здесь</h5>                            
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="categories__post">
+           <div class="container">
+               <div class="row">
+                   <div class="col-lg-8 col-md-8">
+                       <div class="categories__post__item categories__post__item--large">
+                           <div class="categories__post__item__pic set-bg"
+                               data-setbg="img/categories/categories-post/cp-1.jpg">
+                               <div class="post__meta">
+                                   <h4>08</h4>
+                                   <span>Дек</span>
+                               </div>
+                           </div>
+                           <div class="categories__post__item__text">
+                               <ul class="post__label--large">
+                                   <li>Утечка</li>
+                                   <li>Анонс</li>
+                               </ul>
+                               <h3><a href="#">Утечка: Релиз Halo Infinite состоится 8 декабря</a></h3>
+                               <p>Уже сегодня на специальном мероприятии Opening Night Live в рамках Gamescom 2021 должны раскрыть новые подробности Halo Infinite. Судя по всему во время шоу, разработчики должны были раскрыть дату выхода шутера, но она просочилась в сеть раньше времени. Релиз новой части приключений Мастера Чифа состоится 8 декабря.</p>
+                               <a href="#" class="primary-btn">подробности</a>
+                               <div class="post__social">
+                                   <span>Share</span>
+                                   <a href="#"><i class="fa fa-facebook"></i> <span>82</span></a>
+                                   <a href="#"><i class="fa fa-twitter"></i> <span>24</span></a>
+                                   <a href="#"><i class="fa fa-envelope-o"></i> <span>08</span></a>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="row">
+                           <div class="col-lg-6 col-md-6 col-sm-6">
+                               <div class="categories__post__item">
+                                   <div class="categories__post__item__pic small__item set-bg"
+                                       data-setbg="img/categories/categories-post/cp-2.jpg">
+                                       <div class="post__meta">
+                                           <h4>18</h4>
+                                           <span>Фев</span>
+                                       </div>
+                                   </div>
+                                   <div class="categories__post__item__text">                                      
+                                       <h3><a href="#">Far Cry New Dawn</a></h3>
+                                       <ul class="post__widget">
+                                           <li>by <span>Admin</span></li>
+                                           <li>3 min read</li>
+                                           <li>20 Comment</li>
+                                       </ul>
+                                       <p>Действия разворачиваются в округе Хоуп, где также происходили события Far Cry 5. Однако в Far Cry New Dawn игрок оказывается в знакомом месте спустя 17 лет после глобальной ядерной катастрофы, в 2035 году. Как и раньше, у него нет имени, есть только звание капитана. Он входит в отряд Томаса Раша, задача которого — строительство и защита поселений по всему западному побережью постапокалиптического США. Им помогает Кармина, дочь Ника Рая.
+
+                                           Главными антагонистами части выступают Близнецы (Микки и Лу) — две сестры, возглавляющие банду безжалостных рейдеров «Хайвеймен», в русском переводе «Рейдеры».</p>
+                                   </div>
+                               </div>
+                               <div class="categories__post__item">
+                                   <div class="categories__post__item__pic set-bg"
+                                       data-setbg="img/categories/categories-post/cp-4.jpg">
+                                       <div class="post__meta">
+                                           <h4>31</h4>
+                                           <span>Июл</span>
+                                       </div>
+                                   </div>
+                                   <div class="categories__post__item__text">
+                                       <ul class="post__label--large">                                            
+                                       </ul>
+                                       <h3><a href="#">Real Racing 3</a></h3>
+                                       <ul class="post__widget">
+                                           <li>by <span>Admin</span></li>
+                                           <li>3 min read</li>
+                                           <li>20 Comment</li>
+                                       </ul>
+                                       <p>Real Racing 3 — игра из серии Real Racing[en] для мобильных устройств в жанре гоночного автосимулятора с режимом многопользовательской гонки. Разработана студией Firemonkeys Studios и издана Electronic Arts для платформ iOS, Android, SHIELD Portable и BlackBerry 10.
+
+                                           В отличие от предыдущих версий игры, в игре Real Racing 3 игрокам необходимо поддерживать исправность автомобиля, проводя регулярное техническое обслуживание. Выполнение ТО и модернизации требует наличия внутриигровой валюты, а также занимает время, часто — до нескольких часов, в зависимости от обслуживаемого автомобиля.</p>
+                                   </div>
+                               </div>
+                               <div class="categories__post__item__plain set-bg"
+                                   data-setbg="img/categories/categories-post/cp-6.jpg">
+                                   <div class="categories__post__item__text">
+                                       <div class="post__meta">
+                                           <h4>05</h4>
+                                           <span>Окт</span>
+                                       </div>
+                                       <ul class="post__label--large">
+                                           <li>Провал</li>
+                                           <li>Смерть серии</li>
+                                       </ul>
+                                       <h3><a href="#">Assassin’s Creed Odyssey</a></h3>
+                                       <div class="post__social">
+                                           <span>Share</span>
+                                           <a href="#"><i class="fa fa-facebook"></i> <span>82</span></a>
+                                           <a href="#"><i class="fa fa-twitter"></i> <span>24</span></a>
+                                           <a href="#"><i class="fa fa-envelope-o"></i> <span>08</span></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="categories__post__item">
+                                   <div class="categories__post__item__pic smaller__large set-bg"
+                                       data-setbg="img/categories/categories-post/cp-8.jpg">
+                                       <div class="post__meta">
+                                           <h4>17</h4>
+                                           <span>Сен</span>
+                                       </div>
+                                   </div>
+                                   <div class="categories__post__item__text">
+                                       <span class="post__label">Бессмертна</span>
+                                       <h3><a href="#">GTA 5</a></h3>
+                                       <ul class="post__widget">
+                                           <li>by <span>Admin</span></li>
+                                           <li>3 min read</li>
+                                           <li>20 Comment</li>
+                                       </ul>
+                                       <p>Grand Theft Auto V (сокр. GTA V) — мультиплатформенная компьютерная игра в жанре action-adventure с открытым миром, разработанная компанией Rockstar North и изданная компанией Rockstar Games. Изначально игра была выпущена для игровых консолей PlayStation 3 и Xbox 360 в 2013 году, в 2014 году переиздана для PlayStation 4 и Xbox One, а в 2015 году — для персональных компьютеров под управлением Windows. Является пятнадцатой по счёту игрой серии Grand Theft Auto и следующей крупной игрой после Grand Theft Auto IV, выпущенной в 2008 году. В России и СНГ издателем Grand Theft Auto V выступает компания 1С-СофтКлаб.</p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-lg-6 col-md-6 col-sm-6">
+                               <div class="categories__post__item">
+                                   <div class="categories__post__item__pic smaller__large set-bg"
+                                       data-setbg="img/categories/categories-post/cp-3.jpg">
+                                       <div class="post__meta">
+                                           <h4>10</h4>
+                                           <span>Дек</span>
+                                       </div>
+                                   </div>
+                                   <div class="categories__post__item__text">
+                                       <span class="post__label">провал</span>
+                                       <h3><a href="#">Cyberpunk 2077</a>
+                                       </h3>
+                                       <ul class="post__widget">
+                                           <li>by <span>Admin</span></li>
+                                           <li>3 min read</li>
+                                           <li>20 Comment</li>
+                                       </ul>
+                                       <p>Cyberpunk 2077 (с англ. — «Киберпанк 2077») — компьютерная игра в жанре action/RPG, разработанная и изданная польской студией CD Projekt. Действие игры происходит в 2077 году в Найт-Сити, вымышленном североамериканском городе из вселенной Cyberpunk.Перейти к разделу «#Сюжет» Игрок управляет настраиваемым протагонистом по имени Ви, который работает наёмником и владеет навыками взлома и боя.</p>
+                                   </div>
+                               </div>
+                               <div class="categories__post__item__small">
+                                   <img src="img/categories/categories-post/quote.png" alt="">
+                                   <p>Новости, которые не поподают на сайт можно посмотреть в наших сообществах!!!</p>
+                                   <div class="posted__by">Н. Буренин</div>
+                               </div>
+                               <div class="categories__post__item">
+                                   <div class="categories__post__item__pic smaller__large set-bg"
+                                       data-setbg="img/categories/categories-post/cp-5.jpg">
+                                       <div class="post__meta">
+                                           <h4>04</h4>
+                                           <span>Дек</span>
+                                       </div>
+                                   </div>
+                                   <div class="categories__post__item__text">                                     
+                                       <h3><a href="#">Just Cause 4</a></h3>
+                                       <ul class="post__widget">
+                                           <li>by <span>Admin</span></li>                                            
+                                       </ul>
+                                       <p>Новая часть Just Cause отличается от предыдущих тем, что у неё новый игровой движок Apex Engine, благодаря этому движку в игре теперь есть: экстремальные погодные эффекты, включая метели, пыльные бури, торнадо, а также молнии. Также были улучшены: физика игры, анимация игры, улучшенная система разрушений, улучшенная детализация окружения.[1]. Искусственный интеллект также был улучшен, враги с которыми будет сражаться игрок теперь будут более опасными и более организованными.</p>
+                                   </div>
+                               </div>
+                               <div class="categories__post__item">
+                                   <div class="categories__post__item__pic set-bg"
+                                       data-setbg="img/categories/categories-post/cp-7.jpg">
+                                       <div class="post__meta">
+                                           <h4>20</h4>
+                                           <span>Мар</span>
+                                       </div>
+                                   </div>
+                                   <div class="categories__post__item__text">
+                                       <ul class="post__label--large">                                           
+                                       </ul>
+                                       <h3><a href="#">DOOM</a></h3>
+                                       <ul class="post__widget">
+                                           <li>by <span>Admin</span></li>
+                                           <li>3 min read</li>
+                                           <li>20 Comment</li>
+                                       </ul>
+                                       <p>Doom (стилизованное написание — DOOM) — серия компьютерных игр в жанре шутера от первого лица. Серия насчитывает 5 основных игр, первая из которых вышла в 1993 году, а последняя — Doom Eternal — 20 марта 2020 года, а также ряд ответвлений. Все 5 основных игр были разработаны компанией id Software, в то время, как разработка побочных игр доверялась в том числе и различным сторонним студиям.
+
+                                           События игр серии показываются с точки неназванного космического пехотинца, работающего на Объединённую Аэрокосмическую Корпорацию (англ. Union Aerospace Corporation, UAC) и сражающегося против полчищ демонов, для того чтобы выжить и спасти Землю от их нападения. Действие почти всех частей серии происходит на Марсе, его спутниках, Фобосе и Деймосе, в лабораториях ОАК или в Аду.
+                                           
+                                           Оригинальная игра 1993 года является одной из первых игр от первого лица для IBM-PC-совместимых компьютеров с трёхмерной графикой, многопользовательским режимом, а также с поддержкой пользовательских модификаций. К большей части игр серии были выпущены многочисленные модификации. Сопутствующая продукция представлена комиксом, двумя одноимёнными фильмами и несколькими книгами по мотивам сюжета.</p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-lg-12 text-center">
+                               <div class="load__more__btn">
+                                   <a href="#">ЕЩЁ</a>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-lg-4 col-md-4">
+                       <div class="sidebar__item">
+                           <div class="sidebar__about__item">
+                               <div class="sidebar__item__title">
+                                   <h6>O нас</h6>
+                               </div>                                                          
+                               <p>Привет всем!!! Мы постим новости и продаем игры, наша команда решила упростить вам жизнь. Прочитай новость и купи игру, если она тебя понравилась, всё в одном сайте!!!</p>                               
+                           </div>
+                           <div class="sidebar__follow__item">
+                               <div class="sidebar__item__title">
+                                   <h6>Подпишись</h6>
+                               </div>
+                               <div class="sidebar__item__follow__links">
+                                   <a href="#"><i class="fa fa-facebook"></i></a>
+                                   <a href="#"><i class="fa fa-twitter"></i></a>
+                                   <a href="#"><i class="fa fa-youtube-play"></i></a>
+                                   <a href="#"><i class="fa fa-instagram"></i></a>
+                                   <a href="#"><i class="fa fa-envelope-o"></i></a>
+                               </div>
+                           </div>
+                           <div class="sidebar__feature__item">
+                               <div class="sidebar__item__title">
+                                   <h6>Анонсы</h6>
+                               </div>
+                               <div class="sidebar__feature__item__large set-bg"
+                                   data-setbg="img/sidebar/feature-post.jpg">
+                                   <div class="sidebar__feature__item__large--text">
+                                       <span>Свежие</span>
+                                       <h5><a href="#">Выставка E3</a></h5>
+                                   </div>
+                               </div>
+                               <div class="sidebar__feature__item__list">
+                                   <div class="sidebar__feature__item__list__single">
+                                       <div class="post__meta">
+                                           <h4>28</h4>
+                                           <span>Апр</span>
+                                       </div>
+                                       <div class="post__text">
+                                           <span>Возвращение легенды</span>
+                                           <h5><a href="#">S.T.A.L.K.E.R. 2: Heart of Chernobyl</a></h5>
+                                       </div>
+                                   </div>
+                                   <div class="sidebar__feature__item__list__single">
+                                       <div class="post__meta">
+                                           <h4>11</h4>
+                                           <span>Ноб</span>
+                                       </div>
+                                       <div class="post__text">
+                                           <span>Анонс</span>
+                                           <h5><a href="#">Starfield</a></h5>
+                                       </div>
+                                   </div>
+                                   <div class="sidebar__feature__item__list__single">
+                                       <div class="post__meta">
+                                           <h4>22</h4>
+                                           <span>Июн</span>
+                                       </div>
+                                       <div class="post__text">
+                                           <span>Обновление</span>
+                                           <h5><a href="#">Sea of Thieves: Третий сезон</a></h5>
+                                       </div>
+                                   </div>
+                                   <div class="sidebar__feature__item__list__single">
+                                       <div class="post__meta">
+                                           <h4>12</h4>
+                                           <span>Окт</span>
+                                       </div>
+                                       <div class="post__text">
+                                           <span>Анонс</span>
+                                           <h5><a href="#">Back 4 Blood</a></h5>
+                                       </div>
+                                   </div>
+                                   <div class="sidebar__feature__item__list__single">
+                                       <div class="post__meta">
+                                           <h4>?</h4>
+                                           <span>?</span>
+                                       </div>
+                                       <div class="post__text">
+                                           <span>Анонс</span>
+                                           <h5><a href="#">Battlefield 2042</a></h5>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="sidebar__item__banner">
+                               <img src="img/sidebar/banner.jpg" alt="">
+                           </div>                            
+                           <div class="sidebar__subscribe__item">
+                               <div class="sidebar__item__title">
+                                   <h6>Подпишись</h6>
+                               </div>
+                               <p>Подпишись и узновай о поступлениях первым!!!</p>
+                               <form action="#">
+                                   <input type="text" class="email-input" placeholder="Введите email">
+                                   <label for="s-agree-check">
+                                       Я согласен со всеми условиями.
+                                       <input type="checkbox" id="s-agree-check">
+                                       <span class="checkmark"></span>
+                                   </label>
+                                   <button type="submit" class="site-btn">Подпишись</button>
+                               </form>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   <!-- Categories Section End -->
+
+   <!-- Footer Section Begin -->
+   <footer class="footer">
+       
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-12">
+                   <div class="footer__text">
+                       <div class="footer__logo">
+                           <a href="#"><img src="img/logo.png" alt=""></a>
+                       </div>                        
+                       <div class="footer__social">
+                           <a href="#"><i class="fa fa-facebook"></i></a>
+                           <a href="#"><i class="fa fa-twitter"></i></a>
+                           <a href="#"><i class="fa fa-instagram"></i></a>
+                           <a href="#"><i class="fa fa-youtube-play"></i></a>
+                           <a href="#"><i class="fa fa-envelope-o"></i></a>
+                       </div>
+                   </div>
+                   <div class="footer__copyright">                        
+                   </div>
+               </div>
+           </div>
+       </div>
+   </footer>
+   <!-- Footer Section End -->
+
+   <!-- Search Begin -->
+   <div class="search-model">
+       <div class="h-100 d-flex align-items-center justify-content-center">
+           <div class="search-close-switch">+</div>
+           <form class="search-model-form">
+               <input type="text" id="search-input" placeholder="Search here.....">
+           </form>
+       </div>
+   </div>
+   <!-- Search End -->
+
+   <!-- Js Plugins -->
+   <script src="js/jquery-3.3.1.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery.slicknav.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/main.js"></script>
+</body>
+
+</html>
